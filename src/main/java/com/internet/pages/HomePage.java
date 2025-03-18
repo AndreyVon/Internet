@@ -16,4 +16,12 @@ public class HomePage extends BasePage{
         click(alertsWindow);
         return new AlertsPage(driver);
     }
+
+    @FindBy(css = "[href='/windows']")
+    WebElement multipleWindow;
+
+    public MultipleWindowsPage getMultipleWindow() {
+        click(multipleWindow);
+        return new MultipleWindowsPage(driver);
+    }
 }

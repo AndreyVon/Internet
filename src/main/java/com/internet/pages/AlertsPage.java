@@ -40,4 +40,17 @@ public class AlertsPage extends BasePage{
         }
         return this;
     }
+
+    @FindBy(css = "[onclick='jsPrompt()']")
+    WebElement promptButton;
+
+    public AlertsPage sendMessageToAlert(String message) {
+        click(promptButton);
+        if(message != null){
+            driver.switchTo().alert().sendKeys(message);
+            driver.switchTo().alert().accept();
+        }
+        return this;
+
+    }
 }

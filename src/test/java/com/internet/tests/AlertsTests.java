@@ -22,4 +22,9 @@ public class AlertsTests extends TestBase{
     public void alertWithSelectTest(){
         new AlertsPage(driver).selectResult("Cancel").verifyResult("Cancel");
     }
+
+    @Test
+    public void sendMessageToAlertTest(){
+        new AlertsPage(driver).sendMessageToAlert("Hello world").verifyResult("Hello world");
+    }
 }
