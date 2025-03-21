@@ -1,0 +1,9 @@
+com\internet\pages\BrokenImagesPage.class
+com\internet\pages\CheckboxesPage.class
+com\internet\pages\MultipleWindowsPage.class
+com\internet\pages\BasePage.class
+com\internet\pages\FileUploadPage.class
+com\internet\pages\DragAndDropPage.class
+com\internet\pages\HomePage.class
+com\internet\pages\AlertsPage.class
+com\internet\pages\DropdownPage.class

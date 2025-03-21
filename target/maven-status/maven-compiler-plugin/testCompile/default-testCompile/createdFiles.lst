@@ -1,0 +1,8 @@
+com\internet\tests\DragAndDropTest.class
+com\internet\tests\AlertsTests.class
+com\internet\tests\DropDownTest.class
+com\internet\tests\MultipleWindowsTests.class
+com\internet\tests\FileUploadTest.class
+com\internet\tests\BrokenImagesTest.class
+com\internet\tests\CheckBoxTest.class
+com\internet\tests\TestBase.class
